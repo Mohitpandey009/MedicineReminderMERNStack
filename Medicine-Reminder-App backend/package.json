@@ -1,0 +1,20 @@
+{
+  "name": "medicine-reminder-app-backend",
+  "version": "1.0.0",
+  "description": "its a simple  medicine reminder app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon index.js"
+  },
+  "author": "Mohit Pandey",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.6.2",
+    "twilio": "^4.18.1"
+  }
+}
